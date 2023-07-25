@@ -1,10 +1,17 @@
-import './App.css';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Register from "./Components/Register";
+import Login from "./Components/Login";
 
 function App() {
   return (
-    <div className="App">
+    <>
       
-    </div>
+      <Routes>
+        <Route path="/" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </>
   );
 }
 
