@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #e45f1f;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.App .left-side {
+  padding: 20px 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.App .left-side-container {
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.App .left-side-container h1 {
+  color: #fff;
+  font-size: 90px;
+  margin-bottom: 20px;
+}
+.App .left-side-container p {
+  color: #fff;
+  font-size: 24px;
+  width: 43%;
+  font-weight: 600;
+}
+.App .left-side-container p span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.App .left-side-container img {
+  height: 500px;
+  width: 400px;
+  padding: 10px 20px;
+  margin-top: 5em;
+  background-color: #ffebf1;
+}
+/*RİGHT SİDE*/
+.App .right-side {
+  display: flex;
+  height: 100%;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+}
+.App .right-side .right-side-container {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ffebf1;
+}
+.App .right-side .right-side-container form{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  flex-direction: column;
+}
+.App .right-side .right-side-container form h4{
+  color: #e45f1f;
+  font-size: 35px;
+  font-weight: 900;
+}
+.App .right-side .right-side-container form .details{
+  display: flex;
+  align-items: start;
+  height: 100px;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.App .right-side .right-side-container form .details p{
+  color: #214744;
+  font-size: 15px;
+  margin: 0 0 6px;
+  padding: 0 20px 0 24px;
+}
+.App .right-side .right-side-container form .details input{
+  color: #fff;
+  background-color: #e45f1f;
+  border: none;
+  outline: none;
+  padding: 3px 3px 3px 17px;
+  border-radius: 10px;
+  height: 30%;
+  width: 100%;
+  border: 2px solid transparent;
+}
+.App .right-side .right-side-container form .details input:hover{
+  background-color: #e47f1f;
+}
+.App .right-side .right-side-container form .details input:focus{
+  color: #214744;
+  background-color: #ffebf1;
+  border: 2px solid red;
+}
+.App .right-side .right-side-container form .sendBtn{
+  background-color: #346050;
+  width: 40%;
+  height: 5%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: 200ms all;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
+}
+
+.App .right-side .right-side-container form .sendBtn:hover{
+  transform: scale(1.05);
+  
+  box-shadow: 5px 7px 0px rgba(0, 0, 0, .9);
+}
+.App .right-side .right-side-container p{
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: underline;
+}
